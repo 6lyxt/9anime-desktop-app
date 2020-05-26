@@ -1,0 +1,22 @@
+{
+  "name": "9anime-desktop-app",
+  "version": "1.0.0",
+  "description": "9anime but its on desktop",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "author": "lyxt",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^9.0.0",
+    "electron-packager": "^14.2.1",
+    "electron-winstaller": "^4.0.0"
+  },
+  "dependencies": {
+    "discord-rpc": "^3.1.1",
+    "path": "^0.12.7",
+    "url": "^0.11.0"
+  }
+}
