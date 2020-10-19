@@ -37,18 +37,6 @@ async function setActivity() {
     }
     
 
-   /* 
-   const stateC = await win.webContents.executeJavaScript(`
-    var iframeTitle = document.getElementById("ifrm").contentDocument.title;
-    document.title = iframeTitle;
-    `);
-    */
-
-    //
-    // the rpc is still under construction, since i have to somehow use cross origin without having access to the server 
-    // as explained here: https://stackoverflow.com/questions/25098021/securityerror-blocked-a-frame-with-origin-from-accessing-a-cross-origin-frame
-    //
-
     todayI = today;
         rpc.setActivity({
             state: 'Watching anime in build v' + version,
